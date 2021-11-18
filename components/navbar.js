@@ -3,7 +3,6 @@ import { signIn, signOut, useSession } from "next-auth/client";
 
 export default function Navbar() {
   const [session, loading] = useSession();
-  console.log({ session, loading });
   return (
     <>
       <div>
